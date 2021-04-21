@@ -5,7 +5,7 @@
   --button_width: calc(var(--device_width) * 0.2);
   --button_width_lg: calc(var(--device_width) * 0.2 * 2 + var(--gutter));
 }
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   :root {
     --device_width: 360px;
     --gutter: calc(var(--device_width) * 0.04);
@@ -13,7 +13,7 @@
     --button_width: calc(var(--device_width) * 0.2);
     --button_width_lg: calc(var(--device_width) * 0.2 * 2 + var(--gutter));
   }
-}
+} */
 @media (max-width: 480px) {
   :root {
     --device_width: 100vw;
@@ -42,7 +42,7 @@ body {
   background: linear-gradient(to bottom, #f5e0e1 0%, #f5e0e1 100%);
   width: var(--device_width);
 }
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   #app {
     bottom: 0;
     max-height: 50vh;
@@ -61,7 +61,7 @@ body {
   #app::-webkit-scrollbar-track {
     background-color: transparent;
   }
-}
+} */
 #app .viewer {
   flex: 100%;
   margin: 10px;
