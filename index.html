@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <title>Document</title>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    >
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+    <div class="wrapper">
+        <div
+            id="app"
+            data-v-app=""
+        >
+            <div class="viewer">
+                <div
+                    id="process"
+                    class="wordbreak small transition"
+                ></div>
+                <div
+                    id="result"
+                    class="wordbreak"
+                >0</div>
+            </div>
+            <div class="area">
+                <div class="panel functional">
+                    <div
+                        class="button large"
+                        onclick="clickButton('AC')"
+                    >AC</div>
+                    <div
+                        class="button"
+                        onclick="clickButton('DEL')"
+                    >DEL</div>
+                </div>
+                <div class="panel number">
+                    <div
+                        value="0"
+                        class="button large"
+                        onclick="clickButton('0')"
+                    >0</div>
+                    <div
+                        value="."
+                        class="button"
+                        onclick="clickButton('.')"
+                    >.</div>
+                    <div
+                        value="1"
+                        class="button"
+                        onclick="clickButton('1')"
+                    >1</div>
+                    <div
+                        value="2"
+                        class="button"
+                        onclick="clickButton('2')"
+                    >2</div>
+                    <div
+                        value="3"
+                        class="button"
+                        onclick="clickButton('3')"
+                    >3</div>
+                    <div
+                        value="4"
+                        class="button"
+                        onclick="clickButton('4')"
+                    >4</div>
+                    <div
+                        value="5"
+                        class="button"
+                        onclick="clickButton('5')"
+                    >5</div>
+                    <div
+                        value="6"
+                        class="button"
+                        onclick="clickButton('6')"
+                    >6</div>
+                    <div
+                        value="7"
+                        class="button"
+                        onclick="clickButton('7')"
+                    >7</div>
+                    <div
+                        value="8"
+                        class="button"
+                        onclick="clickButton('8')"
+                    >8</div>
+                    <div
+                        value="9"
+                        class="button"
+                        onclick="clickButton('9')"
+                    >9</div>
+                </div>
+            </div>
+            <div class="panel operator">
+                <div
+                    value="/"
+                    class="button"
+                    onclick="clickButton('/')"
+                >÷</div>
+                <div
+                    value="*"
+                    class="button"
+                    onclick="clickButton('*')"
+                >×</div>
+                <div
+                    value="-"
+                    class="button"
+                    onclick="clickButton('-')"
+                >-</div>
+                <div
+                    value="+"
+                    class="button"
+                    onclick="clickButton('+')"
+                >+</div>
+                <div
+                    class="button"
+                    onclick="clickButton('=')"
+                >=</div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="https://unpkg.com/vue@3.0.4/dist/vue.global.js"></script> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
